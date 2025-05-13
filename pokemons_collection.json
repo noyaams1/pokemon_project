@@ -1,0 +1,77 @@
+{
+    "pikachu": {
+        "name": "pikachu",
+        "id": 25,
+        "height": 4,
+        "weight": 60,
+        "types": [
+            "electric"
+        ]
+    },
+    "nidoking": {
+        "name": "nidoking",
+        "id": 34,
+        "height": 14,
+        "weight": 620,
+        "types": [
+            "poison",
+            "ground"
+        ]
+    },
+    "charjabug": {
+        "name": "charjabug",
+        "id": 737,
+        "height": 5,
+        "weight": 105,
+        "types": [
+            "bug",
+            "electric"
+        ]
+    },
+    "sableye": {
+        "name": "sableye",
+        "id": 302,
+        "height": 5,
+        "weight": 110,
+        "types": [
+            "dark",
+            "ghost"
+        ]
+    },
+    "manectric": {
+        "name": "manectric",
+        "id": 310,
+        "height": 15,
+        "weight": 402,
+        "types": [
+            "electric"
+        ]
+    },
+    "poochyena": {
+        "name": "poochyena",
+        "id": 261,
+        "height": 5,
+        "weight": 136,
+        "types": [
+            "dark"
+        ]
+    },
+    "eevee-gmax": {
+        "name": "eevee-gmax",
+        "id": 10205,
+        "height": 180,
+        "weight": 10000,
+        "types": [
+            "normal"
+        ]
+    },
+    "ponyta-galar": {
+        "name": "ponyta-galar",
+        "id": 10162,
+        "height": 8,
+        "weight": 240,
+        "types": [
+            "psychic"
+        ]
+    }
+}
