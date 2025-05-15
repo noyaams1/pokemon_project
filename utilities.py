@@ -1,36 +1,8 @@
-from constant_vars import API_BASE_URL, POKEMON_LIST_ENDPOINT, DB_PATH
+from constant_vars import DB_PATH
 from ui_messages import print_pokemon
 from json_functions import save_json
-import requests
+from api import get_all_pokemon_data , get_pokemon_details_from_api
 import random
-
-
-# --- Get all Pokémons (name + URL) ---
-def get_all_pokemon_data():
-    response = requests.get(POKEMON_LIST_ENDPOINT)
-    if response.status_code == 200:
-        return response.json()["results"]
-    else:
-        print("Failed to fetch Pokémon list")
-        return []
-
-# --- Get full details of a Pokémon by name or ID ---
-def get_pokemon_details_from_api(identifier):
-    url = f"{API_BASE_URL}/pokemon/{identifier}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        return {
-            "name": data["name"],
-            "id": data["id"],
-            "height": data["height"],
-            "weight": data["weight"],
-            "types": [t["type"]["name"] for t in data["types"]],
-        }
-    else:
-        print(f"Failed to fetch details for {identifier}")
-        return None
-
 
 # --- checking if pokemon is already in DB, if not: adding it.
 def update_db_if_needed(db, details):

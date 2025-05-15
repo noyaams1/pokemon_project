@@ -73,5 +73,24 @@
         "types": [
             "psychic"
         ]
+    },
+    "zygarde-50": {
+        "name": "zygarde-50",
+        "id": 718,
+        "height": 50,
+        "weight": 3050,
+        "types": [
+            "dragon",
+            "ground"
+        ]
+    },
+    "nidorino": {
+        "name": "nidorino",
+        "id": 33,
+        "height": 9,
+        "weight": 195,
+        "types": [
+            "poison"
+        ]
     }
 }

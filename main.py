@@ -4,7 +4,7 @@ from utilities import random_choice, drawing_by_id, drawing_by_name
 from ui_messages import print_menu
 
 
-#--- Running the program---
+# --- Running the program---
 def main():
     db = load_json(DB_PATH)
     while True:
@@ -23,6 +23,6 @@ def main():
         else:
             print("Please choose a valid option (1-4).")
 
-            
+
 if __name__ == "__main__":
     main()
