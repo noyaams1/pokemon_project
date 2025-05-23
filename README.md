@@ -29,9 +29,9 @@ pip install -r requirements.txt
 
 ```
 Note: 
-1. Make sure your AWS CLI is configured.
-2. Create a key pair in AWS and import your public key.
-3. Port 22 is opened publicly for SSH access to the ec2 app server.
+- Make sure your AWS CLI is configured.
+- Create a key pair in AWS and import your public key.
+- Port 22 is opened publicly for SSH access to the ec2 app server.
 
 3. Run the app:
 ```bash
@@ -55,15 +55,4 @@ python main.py
 ```
 
 ---
-
-## 🧪 Deployment Support
-
-- Optional script for automatic provisioning:
-  - Creates VM/server
-  - Installs dependencies
-  - Pulls app from GitHub
-  - Displays a welcome/usage message
-  - Tests app on login
-
-
 
